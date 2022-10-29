@@ -12,6 +12,7 @@ with open("g.txt", 'r') as gfile, open("h.txt", 'a') as hfile:
     for i in gfile:
         hfile.write(i)
 h.close()
-
-
-
+something=open("g.txt","r")
+smthng=something.read()
+number=len(smthng)
+print("Количество символов в файле:", number)
